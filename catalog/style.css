@@ -1,0 +1,280 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial';
+}
+
+.container {
+    min-height: 90%;
+}
+
+h1 {
+    color: slateblue;
+    font-size: 62px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	background: #eaeaea;
+}
+
+ul, ol {
+	font-family: sans-serif;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.menu  li {
+    list-style: none;
+    font-size: 18px;
+    padding: 5px 25px 0px 25px;
+    display: inline-block;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    margin-right: -5px;
+}
+
+ .menu li a:hover {
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:blueviolet;
+    border: none;
+}
+
+a img {
+    border: none;
+}
+
+.spec {
+    list-style-type: none;
+    padding-left: 25px;
+    background: url('https://www.osstf.on.ca/Content/images/right-arrow.png') no-repeat;
+    background-size: 20px;
+}
+
+.header {
+    text-align:center;
+  }
+
+form {
+    width: 350px;
+}
+
+.logo {
+    display: block;
+    margin: -10px auto;
+
+}
+
+.footer {
+    background-color: #999; 
+    text-align:center;
+    clear: both;
+    color: blueviolet;
+    height: 100px;
+    font-size: 18px;
+}
+
+.copy {
+    display: inline-block;
+    vertical-align: baseline;
+    margin: 40px;
+}
+
+.in {
+    color: darkorchid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: 29px;
+    background-color: whitesmoke;
+    width: 200px;
+    height: auto;
+    text-transform: capitalize;
+}
+
+.col {
+    font-size: 17px;
+    color: darkslategray;
+    
+}
+
+.tema {
+        margin-left: 67px;
+}
+
+.text {
+    margin: 10px 0px 0px 10px;    
+}
+
+.button {
+    margin: 15px 0px;
+ 
+}
+
+.button:active {
+    color: whitesmoke;
+    background: slateblue;
+}
+
+.in:focus {
+    background: lightgray;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid darkgray;
+    padding: 10px;
+    text-align: right;
+}
+
+th {
+    border: 2px solid darkgray;
+    padding: 10px;
+    height: 40px;
+    background: lightgray;
+    color: darkslategray;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.big:first-letter {
+    font-family: Comic Sans MS;
+    font-size: 18px;
+}
+
+.star3 {
+    background: url('https://vignette2.wikia.nocookie.net/nickfanon/images/9/97/3_Star_Rating_System.png/revision/latest?cb=20140526013542') no-repeat;
+    background-size: 85%;
+    position:relative;
+    top: 65px;
+    left: 10px;
+    
+}
+
+.star4 {
+    background: url('https://vignette.wikia.nocookie.net/nickfanon/images/4/4e/4-star-rating.png/revision/latest?cb=20140526013858') no-repeat;
+    background-size: 85%;
+    position: relative;
+    top: 45px;
+    left: 10px;   
+}
+
+.cent {
+    background: url('https://vignette.wikia.nocookie.net/nickfanon/images/4/4e/4-star-rating.png/revision/latest?cb=20140526013858') no-repeat;
+    background-size: 85%;
+    position: relative;
+    top: 65px;
+    left: 10px;   
+}
+
+caption {
+    font-size: 29px;
+    color: darkgoldenrod;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.sale:after {
+    content: ' SALE 2000';
+    color: red;
+    font-weight: bold;
+}
+
+.sale2:after {
+    content: ' SALE 2200';
+    color: red;
+    font-weight: bold;
+}
+
+.content {
+    padding: 5px 95px 1px 125px;
+    display: inline-block;
+}
+
+.ski {
+    float: left;
+    display: inline-block;
+    max-width: 400px;
+    min-height: 256px;
+    margin: 15px 30px 30px 10px; 
+    
+}
+
+.map {
+    position: absolute;
+    left: 800px;
+}
+
+.chempion {
+    float: left;
+    margin: 20px 50px;
+}
+
+.ccc {
+    color: darkgoldenrod;
+    font-size: 26px;
+    margin-top: 40px;
+    padding: 10px 155px;
+    display: inline-block;
+}
+
+.catalog {
+    padding: 5px 95px 1px 270px;
+    display: inline-block;
+}
+
+.buy {
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    left: 560px;
+    bottom: 80px;
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: slateblue;
+}
+
+.buy:active {
+    background: lightgray;
+    color: darkturquoise;
+}
+
+@media screen and (max-width: 1100px) {
+    .map {
+    position: static;   
+    }
+}
